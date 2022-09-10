@@ -15,7 +15,7 @@ body{
     position:fixed;
     top: 0;
     left: 0;
-    padding: 0 4%  ;
+    padding: 0 5px  ;
     background: #0c111b;
     z-index: 9;
     display: flex;
@@ -55,11 +55,11 @@ body{
    outline: none;
    height:30px;
    color: aqua;
-   width: 250px;
+   width: 45%;
    text-transform: capitalize;
    font-size: 16px;
    font-weight: 500;
-   transition: 0.5s;
+   transition: -3.5s;
  }
  .search-box:focus{
 width: 400px;
@@ -85,6 +85,11 @@ border-color: cadetblue;
    text-transform: uppercase;
    font-weight: 500;
    font-size: 15px;
+   padding: 6px 8px;
    margin-top: 80px;
    text-decoration: none;
 } 
+.login-link:hover{
+   color: black;
+   background-color:aliceblue ;
+}
